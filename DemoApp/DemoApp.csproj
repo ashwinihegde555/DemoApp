@@ -8,6 +8,8 @@
     <PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="79.0.3945.3600" />
     <PackageReference Include="WebDriver.GeckoDriver" Version="0.20.1" />
     <PackageReference Include="MSBuild.SonarQube.Runner.Tool" Version="4.8.0" />
+    <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
   </ItemGroup>
 
 
