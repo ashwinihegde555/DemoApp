@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
-<IsPackable>true</IsPackable>
+
   <ItemGroup>
     <PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="79.0.3945.3600" />
     <PackageReference Include="WebDriver.GeckoDriver" Version="0.20.1" />
@@ -12,6 +12,6 @@
      
   </ItemGroup>
 
-
+<IsPackable>true</IsPackable>
 
 </Project>
